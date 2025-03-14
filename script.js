@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         note.setAttribute("contenteditable", "true");
 
         let deleteIcon = document.createElement("img");
-        deleteIcon.src = "/images/delete.png";
+        deleteIcon.src = "images/delete.png";
         deleteIcon.alt = "Delete";
 
         note.appendChild(deleteIcon);
